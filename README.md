@@ -61,6 +61,6 @@ Windows app chalate chaile `Dockerfile.wine` use koro (Railway te Dockerfile pat
 ## Sotyi kotha (limit)
 
 - Railway **Trial plan e RAM ~0.5–1GB** — XFCE + Firefox cholbe, kintu heavy kaj / beshi tab khulle slow hobe.
-- Trial er $5 credit / 30 din sesh hole RDP bondho hoye jabe — **24/7 er guarantee nai**.
+- Trial er $5 credit / 30 din sesh hole RDP bondho hoye jabe — **24/7 er guarantee nai**. Video te "lifetime" ar "800GB storage" bolleo oita thik na — 800GB ta container er temporary disk dekhay, save thaka storage trial e sudhu 0.5GB.
 - RDP port internet e khula thake, tai strong password must. `changeme` diye kokhono chalaiyo na.
 - `/root` e ja save korba, container delete hole muche jabe — jodi Railway te Volume add koro (`/root` mount), tahole home folder bachbe.
