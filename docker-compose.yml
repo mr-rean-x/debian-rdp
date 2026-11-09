@@ -1,0 +1,15 @@
+services:
+  rdp:
+    build: .
+    container_name: debian-rdp
+    ports:
+      - "3389:3389"
+    volumes:
+      - rdp-home:/root
+    environment:
+      # Login password bodle nao ekhane (RDP te user hobe: root)
+      - RDP_PASSWORD=changeme
+    restart: unless-stopped
+
+volumes:
+  rdp-home:
